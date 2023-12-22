@@ -5,34 +5,169 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="37778f63-edf2-4f40-b98a-0cbc8de037f2" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dbnavigator.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/safetynet/alers/model/Controller/FireStationController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/safetynet/alers/model/Controller/MedicalRecordController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/safetynet/alers/model/Controller/PersonController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/safetynet/alers/model/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/safetynet/alers/model/MedicalRecordServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/safetynet/alers/model/Model/FireStation.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/safetynet/alers/model/Model/MedicalRecord.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/safetynet/alers/model/Model/Person.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/safetynet/alers/model/exception/FireStationNotFoundException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/safetynet/alers/model/exception/MedicalRecordAlreadyExistsException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/safetynet/alers/model/exception/MedicalRecordNotFoundException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/safetynet/alers/model/exception/MissingInfoException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/safetynet/alers/model/exception/PersonAlreadyExistsException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/safetynet/alers/model/exception/PersonNotFoundException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/safetynet/alers/model/service/FireStationServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/safetynet/alers/model/service/IFireStationService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/safetynet/alers/model/service/IMedicalRecordService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/safetynet/alers/model/service/IPersonService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/safetynet/alers/model/service/PersonService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/safetynet/alers/model/sql/Database.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com/google/gson/annotations.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/safetynetalerts/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/safetynetalerts/.mvn/wrapper/MavenWrapperDownloader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/safetynetalerts/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/safetynetalerts/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/safetynetalerts/SAFETYNET/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/safetynetalerts/lombok.config" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/safetynetalerts/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/safetynetalerts/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/safetynetalerts/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/safetynetalerts/src/main/java/com/safetynet/safetynetalerts/SafetynetalertsApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/safetynetalerts/src/main/java/com/safetynet/safetynetalerts/Service/Endpoints/ChildAlertService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/safetynetalerts/src/main/java/com/safetynet/safetynetalerts/Service/Endpoints/CommunityEmailService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/safetynetalerts/src/main/java/com/safetynet/safetynetalerts/Service/Endpoints/FireService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/safetynetalerts/src/main/java/com/safetynet/safetynetalerts/Service/Endpoints/FireStationCoverageService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/safetynetalerts/src/main/java/com/safetynet/safetynetalerts/Service/Endpoints/FloodService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/safetynetalerts/src/main/java/com/safetynet/safetynetalerts/Service/Endpoints/IChildAlertService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/safetynetalerts/src/main/java/com/safetynet/safetynetalerts/Service/Endpoints/ICommunityEmailService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/safetynetalerts/src/main/java/com/safetynet/safetynetalerts/Service/Endpoints/IFireService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/safetynetalerts/src/main/java/com/safetynet/safetynetalerts/Service/Endpoints/IFireStationCoverageService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/safetynetalerts/src/main/java/com/safetynet/safetynetalerts/Service/Endpoints/IFloodService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/safetynetalerts/src/main/java/com/safetynet/safetynetalerts/Service/Endpoints/IPersonInfoService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/safetynetalerts/src/main/java/com/safetynet/safetynetalerts/Service/Endpoints/IPhoneAlertService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/safetynetalerts/src/main/java/com/safetynet/safetynetalerts/Service/Endpoints/PersonInfoService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/safetynetalerts/src/main/java/com/safetynet/safetynetalerts/Service/Endpoints/PhoneAlertService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/safetynetalerts/src/main/java/com/safetynet/safetynetalerts/Service/FireStationService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/safetynetalerts/src/main/java/com/safetynet/safetynetalerts/Service/IFireStationService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/safetynetalerts/src/main/java/com/safetynet/safetynetalerts/Service/IMedicalRecordService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/safetynetalerts/src/main/java/com/safetynet/safetynetalerts/Service/IPersonService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/safetynetalerts/src/main/java/com/safetynet/safetynetalerts/Service/MedicalRecordService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/safetynetalerts/src/main/java/com/safetynet/safetynetalerts/Service/PersonAge.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/safetynetalerts/src/main/java/com/safetynet/safetynetalerts/Service/PersonService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/safetynetalerts/src/main/java/com/safetynet/safetynetalerts/Service/Result.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/safetynetalerts/src/main/java/com/safetynet/safetynetalerts/controller/Endpoints/ChildAlertController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/safetynetalerts/src/main/java/com/safetynet/safetynetalerts/controller/Endpoints/CommunityEmailController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/safetynetalerts/src/main/java/com/safetynet/safetynetalerts/controller/Endpoints/FireController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/safetynetalerts/src/main/java/com/safetynet/safetynetalerts/controller/Endpoints/FireStationCoverageController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/safetynetalerts/src/main/java/com/safetynet/safetynetalerts/controller/Endpoints/FloodController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/safetynetalerts/src/main/java/com/safetynet/safetynetalerts/controller/Endpoints/PersonInfoController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/safetynetalerts/src/main/java/com/safetynet/safetynetalerts/controller/Endpoints/PhoneAlertController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/safetynetalerts/src/main/java/com/safetynet/safetynetalerts/controller/FireStationController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/safetynetalerts/src/main/java/com/safetynet/safetynetalerts/controller/MedicalRecordController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/safetynetalerts/src/main/java/com/safetynet/safetynetalerts/controller/PersonController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/safetynetalerts/src/main/java/com/safetynet/safetynetalerts/dao/JSONReader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/safetynetalerts/src/main/java/com/safetynet/safetynetalerts/dao/Reader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/safetynetalerts/src/main/java/com/safetynet/safetynetalerts/dto/Adult.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/safetynetalerts/src/main/java/com/safetynet/safetynetalerts/dto/Child.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/safetynetalerts/src/main/java/com/safetynet/safetynetalerts/dto/ChildrenAndAdults.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/safetynetalerts/src/main/java/com/safetynet/safetynetalerts/dto/EmailWithName.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/safetynetalerts/src/main/java/com/safetynet/safetynetalerts/dto/FireCoverage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/safetynetalerts/src/main/java/com/safetynet/safetynetalerts/dto/PersonCover.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/safetynetalerts/src/main/java/com/safetynet/safetynetalerts/dto/PersonInfo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/safetynetalerts/src/main/java/com/safetynet/safetynetalerts/dto/PhoneAndMedical.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/safetynetalerts/src/main/java/com/safetynet/safetynetalerts/dto/PhoneAndMedicalByAddress.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/safetynetalerts/src/main/java/com/safetynet/safetynetalerts/dto/PhoneAndMedicalWithStation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/safetynetalerts/src/main/java/com/safetynet/safetynetalerts/dto/PhoneWithName.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/safetynetalerts/src/main/java/com/safetynet/safetynetalerts/dto/StationAndAddress.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/safetynetalerts/src/main/java/com/safetynet/safetynetalerts/model/FireStation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/safetynetalerts/src/main/java/com/safetynet/safetynetalerts/model/MedicalRecord.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/safetynetalerts/src/main/java/com/safetynet/safetynetalerts/model/Person.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/safetynetalerts/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/safetynetalerts/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/safetynetalerts/src/main/resources/data.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/safetynetalerts/src/test/java/com/safetynet/safetynetalerts/SafetynetalertsApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/safetynetalerts/src/test/java/com/safetynet/safetynetalerts/Service/Endpoints/ChildAlertServiceTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/safetynetalerts/src/test/java/com/safetynet/safetynetalerts/Service/Endpoints/CommunityEmailServiceTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/safetynetalerts/src/test/java/com/safetynet/safetynetalerts/Service/Endpoints/FireServiceTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/safetynetalerts/src/test/java/com/safetynet/safetynetalerts/Service/Endpoints/FireStationCoverageServiceTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/safetynetalerts/src/test/java/com/safetynet/safetynetalerts/Service/Endpoints/FloodServiceTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/safetynetalerts/src/test/java/com/safetynet/safetynetalerts/Service/Endpoints/PersonInfoServiceTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/safetynetalerts/src/test/java/com/safetynet/safetynetalerts/Service/Endpoints/PhoneAlertServiceTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/safetynetalerts/src/test/java/com/safetynet/safetynetalerts/Service/FireStationServiceTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/safetynetalerts/src/test/java/com/safetynet/safetynetalerts/Service/MedicalRecordServiceTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/safetynetalerts/src/test/java/com/safetynet/safetynetalerts/Service/PersonServiceTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/safetynetalerts/src/test/java/com/safetynet/safetynetalerts/Utility/getPersonAgeTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/safetynetalerts/src/test/java/com/safetynet/safetynetalerts/dao/JSONReaderTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/safetynetalerts/src/test/java/com/safetynet/safetynetalerts/dataTest.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/safetynetalerts/SafetynetalertsApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/safetynetalerts/Service/Endpoints/ChildAlertService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/safetynetalerts/Service/Endpoints/CommunityEmailService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/safetynetalerts/Service/Endpoints/FireService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/safetynetalerts/Service/Endpoints/FireStationCoverageService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/safetynetalerts/Service/Endpoints/FloodService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/safetynetalerts/Service/Endpoints/IChildAlertService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/safetynetalerts/Service/Endpoints/ICommunityEmailService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/safetynetalerts/Service/Endpoints/IFireService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/safetynetalerts/Service/Endpoints/IFireStationCoverageService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/safetynetalerts/Service/Endpoints/IFloodService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/safetynetalerts/Service/Endpoints/IPersonInfoService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/safetynetalerts/Service/Endpoints/IPhoneAlertService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/safetynetalerts/Service/Endpoints/PersonInfoService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/safetynetalerts/Service/Endpoints/PhoneAlertService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/safetynetalerts/Service/FireStationService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/safetynetalerts/Service/IFireStationService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/safetynetalerts/Service/IMedicalRecordService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/safetynetalerts/Service/IPersonService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/safetynetalerts/Service/MedicalRecordService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/safetynetalerts/Service/PersonAge.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/safetynetalerts/Service/PersonService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/safetynetalerts/Service/Result.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/safetynetalerts/controller/Endpoints/ChildAlertController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/safetynetalerts/controller/Endpoints/CommunityEmailController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/safetynetalerts/controller/Endpoints/FireController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/safetynetalerts/controller/Endpoints/FireStationCoverageController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/safetynetalerts/controller/Endpoints/FloodController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/safetynetalerts/controller/Endpoints/PersonInfoController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/safetynetalerts/controller/Endpoints/PhoneAlertController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/safetynetalerts/controller/FireStationController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/safetynetalerts/controller/MedicalRecordController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/safetynetalerts/controller/PersonController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/safetynetalerts/dao/JSONReader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/safetynetalerts/dao/Reader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/safetynetalerts/dto/Adult.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/safetynetalerts/dto/Child.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/safetynetalerts/dto/ChildrenAndAdults.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/safetynetalerts/dto/EmailWithName.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/safetynetalerts/dto/FireCoverage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/safetynetalerts/dto/PersonCover.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/safetynetalerts/dto/PersonInfo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/safetynetalerts/dto/PhoneAndMedical.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/safetynetalerts/dto/PhoneAndMedicalByAddress.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/safetynetalerts/dto/PhoneAndMedicalWithStation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/safetynetalerts/dto/PhoneWithName.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/safetynetalerts/dto/StationAndAddress.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/safetynetalerts/model/FireStation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/safetynetalerts/model/MedicalRecord.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/safetynetalerts/model/Person.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/safetynetalerts/SafetynetalertsApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/safetynetalerts/Service/Endpoints/ChildAlertServiceTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/safetynetalerts/Service/Endpoints/CommunityEmailServiceTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/safetynetalerts/Service/Endpoints/FireServiceTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/safetynetalerts/Service/Endpoints/FireStationCoverageServiceTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/safetynetalerts/Service/Endpoints/FloodServiceTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/safetynetalerts/Service/Endpoints/PersonInfoServiceTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/safetynetalerts/Service/Endpoints/PhoneAlertServiceTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/safetynetalerts/Service/FireStationServiceTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/safetynetalerts/Service/MedicalRecordServiceTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/safetynetalerts/Service/PersonServiceTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/safetynetalerts/Utility/getPersonAgeTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/safetynetalerts/dao/JSONReaderTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/safetynetalerts/dataTest.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/safetynet/alers/model/Controller/FireStationController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/safetynet/alers/model/Controller/MedicalRecordController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/safetynet/alers/model/Controller/PersonController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/safetynet/alers/model/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/safetynet/alers/model/MedicalRecordServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/safetynet/alers/model/Model/FireStation.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/safetynet/alers/model/Model/MedicalRecord.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/safetynet/alers/model/Model/Person.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/safetynet/alers/model/exception/FireStationNotFoundException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/safetynet/alers/model/exception/MedicalRecordAlreadyExistsException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/safetynet/alers/model/exception/MedicalRecordNotFoundException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/safetynet/alers/model/exception/MissingInfoException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/safetynet/alers/model/exception/PersonAlreadyExistsException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/safetynet/alers/model/exception/PersonNotFoundException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/safetynet/alers/model/service/FireStationServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/safetynet/alers/model/service/IFireStationService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/safetynet/alers/model/service/IMedicalRecordService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/safetynet/alers/model/service/IPersonService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/safetynet/alers/model/service/PersonService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/safetynet/alers/model/sql/Database.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -63,18 +198,25 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;reference.settings.project.maven.repository.indices&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "last_opened_file_path": "C:/Users/ebaleyc/Desktop/safetynet-alerts/src/test/java",
+    "mysql-explain.agentPath": "C:\\Users\\ebaleyc\\AppData\\Roaming\\JetBrains\\IdeaIC2022.2\\plugins\\mysql-explain-intellij-plugin\\lib\\mysql-explain-agent-1.1.0-jar-with-dependencies.jar",
+    "settings.editor.selected.configurable": "reference.settings.project.maven.repository.indices"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
       <recent name="com.safetynet.alers.model" />
       <recent name="com.safetynet.alers.model.Controller.firestation" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\ebaleyc\Desktop\safetynet-alerts\src\test\java" />
+      <recent name="C:\Users\ebaleyc\Desktop\safetynet-alerts\src\main\java" />
+      <recent name="C:\Users\ebaleyc\Desktop\safetynet-alerts" />
     </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="com.safetynet.alers.model.Controller" />
@@ -142,6 +284,10 @@
         <breakpoint enabled="true" type="java-exception">
           <properties class="java.lang.NullPointerException" package="java.lang" />
           <option name="timeStamp" value="1" />
+        </breakpoint>
+        <breakpoint enabled="true" type="java-exception">
+          <properties class="com.google.gson.JsonSyntaxException" package="com.google.gson" />
+          <option name="timeStamp" value="3" />
         </breakpoint>
       </breakpoints>
     </breakpoint-manager>
